@@ -388,6 +388,10 @@
 		<string>previousCompletion:</string>
 		<key>^?</key>
 		<string>completionPlaceholderSelectPrevious:</string>
+		<key>^@j</key>
+		<string>deleteSubWordForward:</string>
+		<key>^@z</key>
+		<string>deleteSubWordBackward:</string>
 		<key>^@</key>
 		<string>makeBaseWritingDirectionNatural:</string>
 		<key>^@</key>
