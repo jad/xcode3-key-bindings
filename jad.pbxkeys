@@ -277,8 +277,12 @@
 	</dict>
 	<key>text</key>
 	<dict>
-		<key></key>
-		<string>insertNewline:</string>
+		<key>^o</key>
+		<array>
+			<string>insertNewlineIgnoringFieldEditor:</string>
+			<string>moveUp:</string>
+			<string>moveToEndOfParagraph:</string>
+		</array>
 		<key></key>
 		<string>deleteBackward:</string>
 		<key>	</key>
@@ -318,9 +322,9 @@
 		<string>pageDownAndModifySelection:</string>
 		<key>@</key>
 		<string>noop:</string>
-		<key>@"</key>
+		<key>@&quot;</key>
 		<string>splitCurrentNavigator:</string>
-		<key>@'</key>
+		<key>@&apos;</key>
 		<string>closeCurrentNavigator:</string>
 		<key>@.</key>
 		<string>cancelOperation:</string>
@@ -340,18 +344,11 @@
 		<string>scrollLineDown:</string>
 		<key>^</key>
 		<string>noop:</string>
-		<key>^</key>
-		<string>insertLineBreak:</string>
 		<key>^	</key>
 		<string>selectNextKeyView:</string>
-		<key>^
-</key>
-		<string>insertLineBreak:</string>
-		<key>^</key>
-		<string>insertLineBreak:</string>
 		<key>^</key>
 		<string>selectPreviousKeyView:</string>
-		<key>^"</key>
+		<key>^&quot;</key>
 		<string>insertDoubleQuoteIgnoringSubstitution:</string>
 		<key>^$A</key>
 		<string>moveToBeginningOfParagraphAndModifySelection:</string>
@@ -381,7 +378,7 @@
 		<string>moveSubWordBackwardAndModifySelection:</string>
 		<key>^$</key>
 		<string>moveSubWordForwardAndModifySelection:</string>
-		<key>^'</key>
+		<key>^&apos;</key>
 		<string>insertSingleQuoteIgnoringSubstitution:</string>
 		<key>^,</key>
 		<string>complete:</string>
@@ -552,7 +549,7 @@
 		<string>moveWordRightAndModifySelection:</string>
 		<key>~@</key>
 		<string>noop:</string>
-		<key>~@"</key>
+		<key>~@&quot;</key>
 		<string>splitCurrentNavigatorHorizontally:</string>
 		<key>~</key>
 		<string>deleteWordBackward:</string>
