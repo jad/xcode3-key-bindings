@@ -63,13 +63,13 @@
 		<key>@?</key>
 		<string>showXcodeHelp:</string>
 		<key>@[</key>
-		<string>PBX_nestLeft:</string>
+		<string>previousFile:</string>
 		<key>@\\</key>
 		<string>toggleAddToBreakpoints:</string>
 		<key>@\^</key>
 		<string>PBX_toggleShowsControlCharacters:</string>
 		<key>@]</key>
-		<string>PBX_nestRight:</string>
+		<string>nextFile:</string>
 		<key>@a</key>
 		<string>selectAll:</string>
 		<key>@b</key>
@@ -138,6 +138,8 @@
 		<string>foldAllComments:</string>
 		<key>^$@</key>
 		<string>unfoldAllComments:</string>
+		<key>^-</key>
+		<string>switchToCounterpartOfCurrentFile:</string>
 		<key>^.</key>
 		<string>nextCompletion:</string>
 		<key>^/</key>
@@ -192,8 +194,6 @@
 		<string>unfold:</string>
 		<key>^@</key>
 		<string>debugTaskShowHUD:</string>
-		<key>^u</key>
-		<string>unfoldAll:</string>
 		<key>^~@f</key>
 		<string>toggleCodeFocus:</string>
 		<key>^~@r</key>
@@ -220,16 +220,16 @@
 		<string>revealCurrentFileInGroupTree:</string>
 		<key>~$@V</key>
 		<string>pasteAsPlainText:</string>
-		<key>~$@</key>
-		<string>previousFile:</string>
-		<key>~$@</key>
-		<string>nextFile:</string>
 		<key>~@</key>
 		<string>toggleGo:</string>
 		<key>~@?</key>
 		<string>showDocumentationWindow:</string>
+		<key>~@[</key>
+		<string>previousBookmark:</string>
 		<key>~@\\</key>
 		<string>toggleEnableBreakpoint:</string>
+		<key>~@]</key>
+		<string>nextBookmark:</string>
 		<key>~@a</key>
 		<string>addFiles:</string>
 		<key>~@b</key>
@@ -268,21 +268,9 @@
 		<string>editActiveExecutable:</string>
 		<key>~@y</key>
 		<string>toggleGoBreakpointsOn:</string>
-		<key>~@</key>
-		<string>switchToCounterpartOfCurrentFile:</string>
-		<key>~@</key>
-		<string>previousBookmark:</string>
-		<key>~@</key>
-		<string>nextBookmark:</string>
 	</dict>
 	<key>text</key>
 	<dict>
-		<key>^o</key>
-		<array>
-			<string>insertNewlineIgnoringFieldEditor:</string>
-			<string>moveUp:</string>
-			<string>moveToEndOfParagraph:</string>
-		</array>
 		<key></key>
 		<string>deleteBackward:</string>
 		<key>	</key>
@@ -322,9 +310,9 @@
 		<string>pageDownAndModifySelection:</string>
 		<key>@</key>
 		<string>noop:</string>
-		<key>@&quot;</key>
+		<key>@"</key>
 		<string>splitCurrentNavigator:</string>
-		<key>@&apos;</key>
+		<key>@'</key>
 		<string>closeCurrentNavigator:</string>
 		<key>@.</key>
 		<string>cancelOperation:</string>
@@ -348,7 +336,7 @@
 		<string>selectNextKeyView:</string>
 		<key>^</key>
 		<string>selectPreviousKeyView:</string>
-		<key>^&quot;</key>
+		<key>^"</key>
 		<string>insertDoubleQuoteIgnoringSubstitution:</string>
 		<key>^$A</key>
 		<string>moveToBeginningOfParagraphAndModifySelection:</string>
@@ -378,7 +366,7 @@
 		<string>moveSubWordBackwardAndModifySelection:</string>
 		<key>^$</key>
 		<string>moveSubWordForwardAndModifySelection:</string>
-		<key>^&apos;</key>
+		<key>^'</key>
 		<string>insertSingleQuoteIgnoringSubstitution:</string>
 		<key>^,</key>
 		<string>complete:</string>
@@ -463,6 +451,8 @@
 		<string>moveWordBackward:</string>
 		<key>^t</key>
 		<string>transpose:</string>
+		<key>^u</key>
+		<string>pageUp:</string>
 		<key>^v</key>
 		<string>pageDown:</string>
 		<key>^w</key>
@@ -549,7 +539,7 @@
 		<string>moveWordRightAndModifySelection:</string>
 		<key>~@</key>
 		<string>noop:</string>
-		<key>~@&quot;</key>
+		<key>~@"</key>
 		<string>splitCurrentNavigatorHorizontally:</string>
 		<key>~</key>
 		<string>deleteWordBackward:</string>
