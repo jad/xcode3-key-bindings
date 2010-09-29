@@ -194,6 +194,12 @@
 		<string>unfold:</string>
 		<key>^@</key>
 		<string>debugTaskShowHUD:</string>
+		<key>^o</key>
+		<array>
+			<string>insertNewlineIgnoringFieldEditor:</string>
+			<string>moveUp:</string>
+			<string>moveToEndOfParagraph:</string>
+		</array>
 		<key>^~@f</key>
 		<string>toggleCodeFocus:</string>
 		<key>^~@r</key>
@@ -310,9 +316,9 @@
 		<string>pageDownAndModifySelection:</string>
 		<key>@</key>
 		<string>noop:</string>
-		<key>@"</key>
+		<key>@&quot;</key>
 		<string>splitCurrentNavigator:</string>
-		<key>@'</key>
+		<key>@&apos;</key>
 		<string>closeCurrentNavigator:</string>
 		<key>@.</key>
 		<string>cancelOperation:</string>
@@ -336,7 +342,7 @@
 		<string>selectNextKeyView:</string>
 		<key>^</key>
 		<string>selectPreviousKeyView:</string>
-		<key>^"</key>
+		<key>^&quot;</key>
 		<string>insertDoubleQuoteIgnoringSubstitution:</string>
 		<key>^$A</key>
 		<string>moveToBeginningOfParagraphAndModifySelection:</string>
@@ -366,7 +372,7 @@
 		<string>moveSubWordBackwardAndModifySelection:</string>
 		<key>^$</key>
 		<string>moveSubWordForwardAndModifySelection:</string>
-		<key>^'</key>
+		<key>^&apos;</key>
 		<string>insertSingleQuoteIgnoringSubstitution:</string>
 		<key>^,</key>
 		<string>complete:</string>
@@ -398,6 +404,12 @@
 		<string>makeBaseWritingDirectionRightToLeft:</string>
 		<key>^@</key>
 		<string>makeBaseWritingDirectionLeftToRight:</string>
+		<key>^o</key>
+		<array>
+			<string>insertNewlineIgnoringFieldEditor:</string>
+			<string>moveUp:</string>
+			<string>moveToEndOfParagraph:</string>
+		</array>
 		<key>^\ </key>
 		<string>setMark:</string>
 		<key>^\@</key>
@@ -543,7 +555,7 @@
 		<string>moveWordRightAndModifySelection:</string>
 		<key>~@</key>
 		<string>noop:</string>
-		<key>~@"</key>
+		<key>~@&quot;</key>
 		<string>splitCurrentNavigatorHorizontally:</string>
 		<key>~</key>
 		<string>deleteWordBackward:</string>
