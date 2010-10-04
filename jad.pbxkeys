@@ -42,6 +42,8 @@
 		<string>debugTaskStepOut:</string>
 		<key>$@W</key>
 		<string>closeCurrentFile:</string>
+		<key>$@X</key>
+		<string>openCodePilotWindow</string>
 		<key>$@Y</key>
 		<string>showDebugger:</string>
 		<key>$@Z</key>
@@ -148,6 +150,8 @@
 		<string>zoomIn:</string>
 		<key>^@-</key>
 		<string>zoomOut:</string>
+		<key>^@/</key>
+		<string>searchLibraryForString:</string>
 		<key>^@=</key>
 		<string>zoomToFit:</string>
 		<key>^@?</key>
@@ -316,9 +320,9 @@
 		<string>pageDownAndModifySelection:</string>
 		<key>@</key>
 		<string>noop:</string>
-		<key>@&quot;</key>
+		<key>@"</key>
 		<string>splitCurrentNavigator:</string>
-		<key>@&apos;</key>
+		<key>@'</key>
 		<string>closeCurrentNavigator:</string>
 		<key>@.</key>
 		<string>cancelOperation:</string>
@@ -342,7 +346,7 @@
 		<string>selectNextKeyView:</string>
 		<key>^</key>
 		<string>selectPreviousKeyView:</string>
-		<key>^&quot;</key>
+		<key>^"</key>
 		<string>insertDoubleQuoteIgnoringSubstitution:</string>
 		<key>^$A</key>
 		<string>moveToBeginningOfParagraphAndModifySelection:</string>
@@ -372,7 +376,7 @@
 		<string>moveSubWordBackwardAndModifySelection:</string>
 		<key>^$</key>
 		<string>moveSubWordForwardAndModifySelection:</string>
-		<key>^&apos;</key>
+		<key>^'</key>
 		<string>insertSingleQuoteIgnoringSubstitution:</string>
 		<key>^,</key>
 		<string>complete:</string>
@@ -404,12 +408,6 @@
 		<string>makeBaseWritingDirectionRightToLeft:</string>
 		<key>^@</key>
 		<string>makeBaseWritingDirectionLeftToRight:</string>
-		<key>^o</key>
-		<array>
-			<string>insertNewlineIgnoringFieldEditor:</string>
-			<string>moveUp:</string>
-			<string>moveToEndOfParagraph:</string>
-		</array>
 		<key>^\ </key>
 		<string>setMark:</string>
 		<key>^\@</key>
@@ -459,6 +457,12 @@
 		</dict>
 		<key>^n</key>
 		<string>moveDown:</string>
+		<key>^o</key>
+		<array>
+			<string>insertNewlineIgnoringFieldEditor:</string>
+			<string>moveUp:</string>
+			<string>moveToEndOfParagraph:</string>
+		</array>
 		<key>^p</key>
 		<string>moveUp:</string>
 		<key>^r</key>
@@ -555,7 +559,7 @@
 		<string>moveWordRightAndModifySelection:</string>
 		<key>~@</key>
 		<string>noop:</string>
-		<key>~@&quot;</key>
+		<key>~@"</key>
 		<string>splitCurrentNavigatorHorizontally:</string>
 		<key>~</key>
 		<string>deleteWordBackward:</string>
