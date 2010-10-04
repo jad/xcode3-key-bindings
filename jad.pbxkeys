@@ -281,6 +281,12 @@
 	</dict>
 	<key>text</key>
 	<dict>
+        <key>^o</key>
+        <array>
+            <string>insertNewlineIgnoringFieldEditor:</string>
+            <string>moveUp:</string>
+            <string>moveToEndOfParagraph:</string>
+        </array>
 		<key></key>
 		<string>deleteBackward:</string>
 		<key>	</key>
@@ -358,6 +364,8 @@
 		<string>moveForwardAndModifySelection:</string>
 		<key>^$G</key>
 		<string>moveWordForwardAndModifySelection:</string>
+		<key>^$I</key>
+		<string>indentSelection:</string>
 		<key>^$J</key>
 		<string>moveSubWordForwardAndModifySelection:</string>
 		<key>^$N</key>
@@ -428,8 +436,6 @@
 		<string>moveWordForward:</string>
 		<key>^h</key>
 		<string>deleteBackward:</string>
-		<key>^i</key>
-		<string>indentSelection:</string>
 		<key>^j</key>
 		<string>moveSubWordForward:</string>
 		<key>^k</key>
@@ -457,12 +463,6 @@
 		</dict>
 		<key>^n</key>
 		<string>moveDown:</string>
-		<key>^o</key>
-		<array>
-			<string>insertNewlineIgnoringFieldEditor:</string>
-			<string>moveUp:</string>
-			<string>moveToEndOfParagraph:</string>
-		</array>
 		<key>^p</key>
 		<string>moveUp:</string>
 		<key>^r</key>
@@ -489,7 +489,7 @@
 			<string>selectWord:</string>
 			<key>^x</key>
 			<string>swapWithMark:</string>
-            <key>^e</key>
+            <key>^i</key>
             <array>
                 <string>selectWord:</string>
                 <string>enterSelection:</string>
@@ -501,7 +501,15 @@
 			<string>selectLine:</string>
 			<key>w</key>
 			<string>selectWord:</string>
+            <key>i</key>
+            <array>
+                <string>selectWord:</string>
+                <string>enterSelection:</string>
+                <string>findNext:</string>
+            </array>
 		</dict>
+		<key>^i</key>
+		<string>findNext:</string>
 		<key>^y</key>
 		<string>yank:</string>
 		<key>^z</key>
