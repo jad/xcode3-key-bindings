@@ -489,6 +489,12 @@
 			<string>selectWord:</string>
 			<key>^x</key>
 			<string>swapWithMark:</string>
+            <key>^e</key>
+            <array>
+                <string>selectWord:</string>
+                <string>enterSelection:</string>
+                <string>findNext:</string>
+            </array>
 			<key>a</key>
 			<string>selectAll:</string>
 			<key>l</key>
