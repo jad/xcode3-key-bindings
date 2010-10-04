@@ -510,6 +510,12 @@
 		</dict>
 		<key>^i</key>
 		<string>findNext:</string>
+        <key>^*</key>
+        <array>
+            <string>selectWord:</string>
+            <string>enterSelection:</string>
+            <string>findNext:</string>
+        </array>
 		<key>^y</key>
 		<string>yank:</string>
 		<key>^z</key>
