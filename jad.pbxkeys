@@ -510,7 +510,7 @@
 		</dict>
 		<key>^i</key>
 		<string>findNext:</string>
-        <key>^*</key>
+        <key>^8</key>
         <array>
             <string>selectWord:</string>
             <string>enterSelection:</string>
